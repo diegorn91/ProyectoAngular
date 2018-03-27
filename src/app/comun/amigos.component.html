@@ -1,0 +1,6 @@
+<div class="containerAmigos">
+  <div class="amigo" *ngFor="let amigo of amigos" [class.selected]="amigo == selectedAmigo" (click)="onSelect(amigo)">
+  <span>{{amigo.nombre}}</span>
+  </div>
+</div>
+

@@ -1,0 +1,15 @@
+.containerAmigos{
+  background-color: aliceblue;
+  position: relative;
+  float: left;
+}
+.amigo{
+  padding: 10px;
+}
+.selected{
+  color:darkgrey;
+}
+.amigo:hover{
+  cursor: default;
+  color: lightgrey;
+}
