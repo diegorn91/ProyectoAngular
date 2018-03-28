@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Amigo } from '../amigo';
 import { AMIGOS } from '../mock-amigos';
-import {Input} from '@angular/compiler/src/core';
+import {Input, Output} from '@angular/compiler/src/core';
 import { ConversacionService } from '../conversacion.service';
 
 @Component({
